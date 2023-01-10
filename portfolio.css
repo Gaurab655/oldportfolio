@@ -1,0 +1,266 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    background-color:#1B1A17;
+}
+
+nav {
+    height: 70px;
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+    background-color:#1B1A17;
+    top: 0;
+}
+
+.navWrapper {   
+    padding-left: 78px;
+    padding-right: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+   
+}
+
+.navWrapper > ul {
+    display: flex;
+
+}
+
+.navWrapper > ul > li {
+    padding-left: 78px;
+    padding-right: 32px;
+    list-style: none;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container {
+
+    position:relative;
+    top: 80px;
+    width: 100%;
+    height: 120vh;
+
+}
+
+.wrapper {
+    padding-left: 66px;
+    padding-right: 28px;
+  display: flex;
+    align-items: center;
+    gap: 20px;
+}
+h2{
+    
+    color: #FF8303;
+    font-size: 48px ;
+    font-family: 'Inconsolata';
+    
+    
+}
+h3{
+    line-height: 10px;
+    color: #A35709 ;
+    font-size: 34px;
+    font-family: 'Work Sans';
+    
+}
+p{
+    color: #F0E3CA;
+    font-family: 'Work Sans';
+    font-size: 16px;
+}
+.aboutme{
+    color:#FF8303 ;
+}
+.intro {
+    width: 466px;
+    line-height: 16px;
+}
+
+
+.mypic {
+   height: 400px;
+  
+}
+
+.social {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   font-size: 20px;
+   position: relative;
+   font-family: 'poppins';
+}
+.social a{
+color: #F0E3CA;
+
+}
+.btn1{
+   background-color:#FF8303;
+   padding: 10PX;
+   border-radius: 10px;
+   margin: 0 10px;
+   font-family: 'Work Sans';
+}
+.mid{
+    display: flex;
+   justify-content: center;
+   position: relative;
+   top: 80px;  
+}
+.mid >p{
+    font-family: 'Work Sans';
+}
+.education{
+    font-family: 'poppins';
+text-align: center;
+padding-top: 160px;
+color: #FF8303;
+}
+
+.courses{
+    margin-top: 96px;
+    justify-content: center;
+    display: flex;
+    gap: 250px;
+    justify-content: space-around;
+}
+.btn2 ,.btn3{
+    background-color:#FF8303;
+    padding: 10PX;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-family: 'Work Sans';
+ }
+ .aboutcourses{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ 
+ .skills{
+    padding-top: 80px;
+    text-align: center;
+ }
+ .skillogos{
+    padding-top: 32px;
+ }
+.skillogos:hover{
+    padding-top: 32px;
+display: flex; 
+gap: 32px;
+justify-content: center;
+ }
+.skills h1{
+    color: #FF8303;
+    font-family: 'poppins';
+}
+.git:hover,.html:hover,.css:hover,.figma:hover{
+    background-color:#F0E3CA;
+border: #A35709;
+cursor: pointer;
+
+}
+.myworks{
+    padding-top: 80px;
+    text-align: center;
+}
+.myworks h1{
+    color: #FF8303;
+    font-family: 'poppins';
+
+}
+.works:hover{
+    cursor: pointer;
+    
+}
+
+.food:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+    
+}
+.budHome:hover {
+    
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.photo:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.mobile:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+
+}
+
+.secondlast{
+    text-align: center;
+    padding-top: 80px;
+}
+.socialinfo{
+    display: flex;
+
+}
+.gmail{
+    height: 20px;
+  
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+ .left{
+   margin-top: 20px;
+    
+}
+.right{
+    
+    margin-top: 20px;
+    
+
+}
+.first{
+    display: flex;
+    margin: 20px;
+    
+}
+.second{
+    display: flex;
+    margin: 20px;
+}
+.first img{
+    margin: 12px;
+}
+.second img{
+    margin: 12px;
+}
+
+.navWrapper ul li :hover{
+    color: #FF8303;
+    transition: 0.5s;
+}
+.social a:hover{
+    color: #FF8303;
+    transition: 0.5s;
+}
+.contact h1{
+    text-align: center;
+    color: #FF8303;
+}
